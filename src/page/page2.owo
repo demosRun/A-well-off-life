@@ -1,0 +1,726 @@
+<template lang="pug">
+.page-2
+  .scale-box-pc
+    //- 中间轮播图区域
+    .swiper-container-main.swiper-box-main
+      .swiper-wrapper-main
+        //- 综述
+        .swiper-slide-main
+          .slide-scale.box
+            //- 顶部主文字
+            plug(_name="module39" _src="https://template.owo.ink/e3d98286c2b311e1.owo")
+            //- 顶部轮播图区域
+            .card.card-0.clear
+              .left.fl
+                plug(_name="module12" _src="https://template.owo.ink/f4b37635ef1877b8.owo")
+              ul.right.fl
+                li
+                  a(href="#") 解局:为啥说中塞友谊如老酒般沁人芬般沁人芬芳
+                li
+                  a(href="#") 记者直击：中国元素为华沙增添亮色增添亮色
+                li
+                  a(href="#") 本网专访贝尔格莱德孔子学院塞方院院塞方院长
+                li
+                  a(href="#") 解局:为啥说中塞友谊如老酒般沁人芬般沁人芬芳
+                li
+                  a(href="#") 记者直击：中国元素为华沙增添亮色增添亮色
+                li
+                  a(href="#") 本网专访贝尔格莱德孔子学院塞方院院塞方院长
+                li
+                  a(href="#") 本网专访贝尔格莱德孔子学院塞方院院塞方院长
+                li
+                  a(href="#") 本网专访贝尔格莱德孔子学院塞方院院塞方院长
+            .card.card-1.clear
+              .left
+                h1 #走向我们的小康生活#  @人民日报
+                h2 2978人参与 | 980.0万阅读
+                //- 话题轮播切换区
+                ul.edit
+                  li
+                    h1 冰糖茉味的鱼松果：
+                    h2 中宣部11日举行“走向我们的小康生活”主题采访报道重大主题宣传。
+                    h3 6月16日：20:21
+                  li
+                    h1 朝阳群众吴大姐：
+                    h2 小康承载初心、小康属于人民，要记录好呈现好建成小康社会。
+                    h3 6月16日：20:21
+                  li
+                    h1 冰糖茉味的鱼松果：
+                    h2 中宣部11日举行“走向我们的小康生活”主题采访报道重大主题宣传。
+                    h3 6月16日：20:21
+                  li
+                    h1 朝阳群众吴大姐：
+                    h2 小康承载初心、小康属于人民，要记录好呈现好建成小康社会。
+                    h3 6月16日：20:21
+                  li
+                    h1 冰糖茉味的鱼松果：
+                    h2 中宣部11日举行“走向我们的小康生活”主题采访报道重大主题宣传。
+                    h3 6月16日：20:21
+                  li
+                    h1 朝阳群众吴大姐：
+                    h2 小康承载初心、小康属于人民，要记录好呈现好建成小康社会。
+                    h3 6月16日：20:21
+                  li
+                    h1 朝阳群众吴大姐：
+                    h2 小康承载初心、小康属于人民，要记录好呈现好建成小康社会。
+                    h3 6月16日：20:21
+                //- 自动填充的轮播图
+                .auto-swiper.swiper-container
+                  .auto-swiper-pagination
+                  .swiper-wrapper
+                //- 二维码
+                plug.qr-code(_name="module163" _src="https://template.owo.ink/9bd6e27d88ad8be2.owo")
+              .right
+                .img-box.img-box-1
+                  a(href="#" target="_blank") 插入图片
+                .img-box.img-box-2
+                  a(href="#" target="_blank") 插入图片
+            .card.card-2
+              a(href="#" target="_blank")
+                img(src="@|show-1.jpg|")
+            //- 下方新闻列表
+            .card.card-3
+              .left.new-list.fl
+                .title
+                  span.l 报道
+                  span.c |
+                  span.r 评论
+                plug(_name="module40" _src="https://template.owo.ink/816f92173ee424ad.owo")
+              .right.new-list.fl
+                .title
+                  span.l 报道
+                  span.c |
+                  span.r 评论
+                plug(_name="module40" _src="https://template.owo.ink/816f92173ee424ad.owo")
+        //- 黑龙江
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 江苏
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 河南
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 湖南
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 广东
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 海南
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 四川
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 贵州
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+        //- 宁夏
+        .swiper-slide-main.hide
+          .slide-scale.box
+            .city-box
+              ul.right
+                li
+                  a(href="#" target="_blank")
+                    .line
+                    h1 国务院总理李克强答记者问答记者问答记
+                    p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+                li
+                  a(href="#" target="_blank")
+                    h2 人民网评：记者会，李克强总理使了三招
+                li
+                  a(href="#" target="_blank")
+                    h2 总理记者会十句妙答|4年两会看总理政务改革进行时
+    img.arrow.arrow-left(src="@|arrow-left.png|" touch-action="none")
+    img.arrow.arrow-right(src="@|arrow-right.png|" touch-action="none")
+    //- 返回按钮
+    img.back-image(src="@|back-image.png|" o-hover="grow" go="page//scaleDown/scaleUpDown")
+    //- 底部切换
+    .bottom-tab-bar
+      img.tab-item(src="@|tab-item.png|")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      let lock = false;
+      let bgColor = ["rgb(179, 189, 196)","rgb(180, 183, 166)","rgb(140, 152, 187)"]; //背景色
+      var mySwiper = new Swiper('.swiper-container-main',{
+        speed: 1300,
+        simulateTouch: false,
+        onlyExternal: true,
+        wrapperClass : 'swiper-wrapper-main',
+        slideClass : 'swiper-slide-main',
+        allowTouchMove: false,//禁止触摸滑动
+        parallax : true,  //文字位移视差
+        onSlideChangeStart: function(swiper) {
+          const box = swiper.slides[swiper.previousIndex]
+          box.classList.add('hide')
+          // console.log(swiper.activeIndex)
+          // 移动底部滑块
+          document.getElementsByClassName('tab-item')[0].style.left = -10 + (swiper.activeIndex * 167) + 'px'
+        },
+        onSlideChangeEnd: function (swiper) {
+          setTimeout(() => {
+            swiper.slides[swiper.activeIndex].classList.remove('hide')
+            // 判断是否是最后一个
+            if (!swiper.slides[swiper.activeIndex + 1]) {
+              document.querySelector('.page-2 .arrow-right').style.display = 'none'
+            } else {
+              document.querySelector('.page-2 .arrow-right').style.display = 'block'
+            }
+            if (!swiper.slides[swiper.activeIndex - 1]) {
+              document.querySelector('.page-2 .arrow-left').style.display = 'none'
+            } else {
+              document.querySelector('.page-2 .arrow-left').style.display = 'block'
+            }
+            lock = false
+          }, 0);
+        },
+        onInit:  function (swiper) {
+          lock = false
+          if (!swiper.slides[swiper.activeIndex - 1]) {
+            // document.querySelector('.page-2 .arrow-left').style.display = 'none'
+          }
+        }
+      });
+        
+      //不使用自带的按钮组件，使用lock控制按钮锁定时间
+      $('.arrow-right').on('click',function(){
+        console.log('------------------')
+        if(!lock) {
+          lock = true
+          mySwiper.slides[mySwiper.activeIndex].classList.add('hide')
+          setTimeout(() => {
+            mySwiper.swipeNext();
+          }, 500);
+        }
+      })
+      $('.arrow-left').on('click',function(){ 
+        if(!lock) {
+          lock = true
+          mySwiper.slides[mySwiper.activeIndex].classList.add('hide')
+          setTimeout(() => {
+            mySwiper.swipePrev();
+          }, 500);
+        }
+      })
+      // 生成自动轮播图
+      const editList = this.queryAll('.card-1 .edit li')
+      let newHtml = ''
+      for (let index = 0; index < editList.length; index+=2) {
+        const element = editList[index];
+        newHtml += `<div class="swiper-slide">`
+        addHtml(editList[index])
+        if (editList[index + 1]) addHtml(editList[index + 1])
+        function addHtml (dom) {
+          console.log(dom)
+          const name = dom.querySelector('h1').innerHTML
+          const text = dom.querySelector('h2').innerHTML
+          const time = dom.querySelector('h3').innerHTML
+          newHtml += `<div class="slide-item"><div class="left-item fl">${name}</div><div class="right-item fl">${text}</div><div class="time">${time}</div></div>` 
+        }
+        newHtml += `</div>`
+      }
+      console.log(editList)
+      this.query('.auto-swiper .swiper-wrapper').innerHTML = newHtml
+      setTimeout(() => {
+        new Swiper(this.$el.getElementsByClassName('auto-swiper')[0], {
+          pagination: this.$el.getElementsByClassName('auto-swiper-pagination')[0],
+          loop: true,
+          autoplay: 3000,
+          paginationClickable: true
+        })
+      }, 0)
+    }
+  }
+</script>
+
+
+<style lang="less">
+.page-2 {
+  background-image: url('@|index-bg.jpg|');
+  background-size: cover;
+  overflow: hidden;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+  width: 77px;
+  height: 77px;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.arrow-left {
+  left: 5%;
+}
+.arrow-right {
+  right: 5%;
+}
+.swiper-box-main {
+  width: 1015px;
+  height: 725px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  .left {
+    position: relative;
+    float: left;
+  }
+}
+.card-1 {
+  h1 {
+    font-size: 20px;
+    color: #133d72;
+    line-height: 26px;
+  }
+  h2 {
+    font-size: 14px;
+    color: #bd3827;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-image: url('@|biaoqian.png|');
+  }
+  .left {
+    padding: 10px 80px;
+    width: 522px;
+    height: 181px;
+    background-image:url('@|top-box.png|');
+    float: left;
+    margin-right: 10px;
+    position: relative;
+  }
+  .qr-code {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    margin: auto;
+    right: 15px;
+    height: 126px;
+  }
+  .right {
+    float: left;
+    .img-box {
+      width: 309px;
+      height: 92px;
+      background-color: #2959a0;
+      color: white;
+      text-align: center;
+      line-height: 92px;
+      font-size: 36px;
+    }
+    .img-box a {
+      color: white;
+    }
+    .img-box-1 {
+      margin-bottom: 17px;
+    }
+  }
+}
+.news-head {
+  margin-bottom: 20px
+}
+.card-0 {
+  .left {
+    width: 685px;
+    height: 394px;
+  }
+  .right {
+    width: 295px;
+    height: 374px;
+    padding: 10px;
+    overflow: auto;
+    background-color: #04478c;
+    li {
+      border-bottom: 1px solid white;
+      padding: 5px 0;
+      a, p {
+        color: white;
+        font-size: 18px;
+        line-height: 28px;
+      }
+      a:hover, p:hover {
+        text-decoration: none;
+        color: #fdff7a;
+      }
+    }
+  }
+}
+.swiper-slide-main {
+  overflow: hidden;
+  position: relative;
+}
+.slide-scale.box {
+  transform-origin: center;
+  left: -50%;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transition: transform 0.8s;
+  transform: scale(1);
+}
+.hide .slide-scale.box {
+  transform: scale(0.8);
+}
+.new-list {
+  width: 460px;
+  margin: 0 20px;
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #04478c;
+    margin-bottom: 15px;
+  }
+  .l {
+    padding: 0 10px;
+  }
+  .c {
+    margin-right: 13px;
+  }
+  .r {
+    background-color: #04478c;
+    color: white;
+    padding: 0 10px;
+  }
+}
+.city-box {
+  background-image: url('@|news-bg.jpg|');
+  width: 998px;
+  height: 542px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  .right {
+    position: absolute;
+    width: 360px;
+    height: 462px;
+    right: 0;
+    top: 0;
+    padding: 40px 20px;
+    overflow: auto;
+    background-color: rgba(19, 63, 136, 0.9);
+    li {
+      background-image: url('@|line.png|');
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding: 10px 0;
+    }
+    h1 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    h2 {
+      font-size: 19px;
+      line-height: 30px;
+      margin-bottom: 5px;
+    }
+  }
+  a {
+    color: white;
+  }
+}
+.back-image {
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  cursor: pointer;
+}
+.bottom-tab-bar {
+  width: 1550px;
+  height: 71px;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url('@|bottom-tab.png|');
+  .tab-item {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    transition: left 0.8s;
+  }
+}
+.edit {
+  display: none;
+}
+.auto-swiper {
+  width: 450px;
+  margin: 0;
+  height: 130px;
+  .slide-item {
+    height: 60px;
+    position: relative;
+    .left-item {
+      font-size: 16px;
+      width: 155px;
+      height: 100%;
+    }
+    .right-item {
+      font-size: 14px;
+      width: 295px;
+    }
+    .time {
+      position: absolute;
+      right: 0;
+      bottom: 3px;
+      color: #bfbfbf;
+    }
+  }
+  .auto-swiper-pagination {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 7px;
+    width: 100%;
+  }
+  .swiper-pagination-switch {
+    background-color: #bfbfbf;
+    width: 40px;
+    height: 5px;
+    display: block;
+    margin: 0 5px;
+  }
+  .swiper-active-switch {
+    background-color: #bd3827;
+  }
+}
+</style>

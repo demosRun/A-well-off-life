@@ -1,0 +1,39 @@
+<template>
+  <div class="news-head">
+    <h1><a hred="#">习近平将对朝鲜民主主义人民共和国进行国事访问</a></h1>
+    <p>
+      <a hred="#">外交部媒体吹风会</a>
+      <a hred="#">芬媒:今年最重要的外国元首到访</a>
+      <a hred="#">美部长 : 希望美中能进一步强化关系</a>
+    </p>
+  </div>
+</template>
+
+<style lang="less">
+.news-head {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+h1 a {
+  font-size: 38px;
+  color: white;
+  font-family: "Microsoft YaHei";
+}
+p {
+  position: relative;
+  text-align: center;
+}
+p a {
+  display: inline-block;
+  width: auto;
+  font-size: 16px;
+  color: black;
+  overflow: hidden;
+  margin: 0 30px;
+  line-height: 20px;
+  padding-top: 10px;
+  color: white;
+}
+</style>

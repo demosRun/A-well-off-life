@@ -1,0 +1,62 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  img.main-text(src="@|main-text.png|")
+  .text 70年砥砺奋进，70年破浪前行。2019年是新中国成立70周年，中国成就备受世界瞩目。这一年，习近平主席在多个国内外高光时刻讲述中国发展故事，以坚定自信的政治气魄、大国领袖的责任担当深入思考人类前途命运，引领自信的中国阔步走向世界。
+  img.arrow-right-1(src="@|arrow-right.png|" o-animation="shrink" go="page2//scaleDown/scaleUpDown/true")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      owo.animate('zoomIn', this.query('.main-text'))
+      if ((autoScaleInfo.innerWidth / autoScaleInfo.innerHeight) > 1) {
+        if ((window.innerWidth / window.innerHeight) > 1.8) {
+          this.$el.classList.add('teshu')
+        }
+      } else {
+        if ((window.innerHeight / window.innerWidth) > 1.8) {
+          this.$el.classList.add('teshu')
+        }
+      }
+      
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  background-image: url('@|bg.jpg|');
+  background-size: cover;
+}
+.main-text {
+  position: absolute;
+  left: 6%;
+  right: 0;
+  top: 22%;
+  margin: auto;
+  width: 41%;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  width: 57%;
+  left: 12%;
+  right: 0;
+  margin: auto;
+  line-height: 1.7;
+  height: 14%;
+  color: #20487a;
+  font-size: 18px;
+  text-indent: 2em;
+}
+.arrow-right-1 {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+</style>

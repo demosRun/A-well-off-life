@@ -1,0 +1,35 @@
+<template>
+	<div class="main-text-box overimg">
+		<img src="@|qr-code.png|">
+		<i class="light"></i>
+	</div>
+</template>
+
+<style lang="less">
+.overimg {
+	display: block;
+	overflow: hidden;
+}
+.light{
+	cursor:pointer;
+	position: absolute;
+	left: -204px;
+	top: 0;
+	width: 204px;
+	height: 250px;
+	background-image: -moz-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.5),rgba(255,255,255,0));
+	background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.5),rgba(255,255,255,0));
+	transform: skewx(-25deg);
+	-o-transform: skewx(-25deg);
+	-moz-transform: skewx(-25deg);
+	-webkit-transform: skewx(-25deg);
+ 
+}
+.overimg:hover .light{
+	left:204px;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-webkit-transition:0.5s;
+	transition:0.5s;
+}
+</style>
